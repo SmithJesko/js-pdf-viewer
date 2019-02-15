@@ -1,0 +1,56 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #111;
+    color: #fefefe;
+    padding: .5rem;
+}
+
+.btn {
+    background: #fefefe;
+    color: #111;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.4rem 1rem;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.page-info {
+    margin-left: 1rem;
+}
+
+.info {
+    float: right;
+    margin-right: 1rem;
+    margin-top: 0.3rem;
+    color: #666;
+}
+
+.info a {
+    font-weight: bold;
+    color: #666;
+    text-decoration: none;
+}
+
+.info a:hover {
+    color: #999;
+}
+
+.error {
+    background: rgb(255, 54, 54);
+    color: #fefefe;
+    padding: 0.5rem;
+}
+
+#pdf-render {
+    margin: auto;
+    display: block;
+}
